@@ -1,13 +1,13 @@
-		location ~ /\.ht {
-			deny all;
-		}
-		error_page 500 502 503 504 /50x.html;
-		location = /50x.html {
-			root html;
-		}
-		location ~ /.svn/ {
-			deny all;
-		}
-		location ~ /.git/ {
-			deny all;
-		}
+    location ~ /\.ht {
+      deny all;
+    }
+    error_page 500 502 503 504 /50x.html;
+    location = /50x.html {
+      root html;
+    }
+    location ~ /.svn/ {
+      deny all;
+    }
+    location ~ /.git/ {
+      deny all;
+    }
